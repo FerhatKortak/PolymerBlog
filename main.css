@@ -1,0 +1,101 @@
+body{
+	background: #E1F5FE;
+	padding: 0px;
+	margin: 0px;
+}
+/*LAYOUT ELEMENTS*/
+#container{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: white;
+}
+	#leftcontainer{
+	box-shadow: 0 5px 2px -2px #ccc;
+	float: left;
+	width: 25%;
+
+	background: black;
+
+	}
+		#menu{
+			width: 25%;
+			height: 100%;
+			min-height: 500px;
+			float: left;
+			background: #00BBD2;
+		}
+		#personalscreen{
+			height: 100%;
+			min-height: 500px;
+			overflow: auto;
+			width: 75%;
+			float: right;
+			background: #0097A7;
+
+		}
+
+
+	#rightcontainer{
+		width: 75%;
+		min-height: 500px;
+		height: 100%;
+		background: white;
+		float: right;
+	}
+
+
+#personaltable{
+	padding-top: 5px;
+	margin: auto;
+}
+
+/*DIV STYLES*/
+#imgprofile{
+	width: 100px;
+	height: 100px;
+	padding: auto;
+	margin-left: auto;
+
+
+}
+
+.divsocial{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*FONT STYLES*/
+.textheader{
+	color: white;
+	font-size: 25px;
+	font-family: "robotolight";
+}
+.textdesc{
+	color: #F0F0F0;
+	font-size: 14px;
+	font-family: "robotoitalic";
+}
+.textnormal{
+	color: white;
+	font-size: 17px;
+	font-family:"robotoregular";
+	margin: 0 0 0 0;
+}
+
+@font-face { 
+font-family:'robotolight'; 
+src: url("font/Roboto-Black.ttf");
+}
+
+@font-face { 
+font-family:'robotoitalic'; 
+src: url("font/Roboto-LightItalic.ttf");
+}
+
+@font-face { 
+font-family:'robotoregular'; 
+src: url("font/Roboto-Thin.ttf");
+}
